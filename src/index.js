@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //----We are connecting to MongoDb database using mongoose-------------// To store our data------//
- mongoose.connect("mongodb+srv://user-open-to-all:hiPassword123@cluster0.xgk0k.mongodb.net/<Akash_kumar_sah_Db>?retryWrites=true&w=majority", { useNewUrlParser: true })
+ mongoose.connect("mongodb+srv://user-open-to-all:hiPassword123@cluster0.xgk0k.mongodb.net/Abhishek-Mishra-DB?retryWrites=true&w=majority", { useNewUrlParser: true })
      .then(() => console.log('mongodb running and connected'))
    .catch(err => console.log(err))
 
